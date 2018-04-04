@@ -1,8 +1,11 @@
-const path = require('path');
+const path = require('path')
+const webpack = require('webpack')
 
 module.exports = {
 	entry: {
-		app: path.resolve(__dirname, './src/index.jsx'),
+		'index': [
+			path.resolve(__dirname, 'src/index.js')
+		]
 	},
 	output: {
 		path: path.resolve(__dirname, './dist'),
@@ -13,29 +16,23 @@ module.exports = {
 		port: 3000,
 		publicPath: '/',
 	},
-	devtool: 'eval-source-map',
+	devtool: 'eval-source-map',  // デプロイするときには削除
 	mode: 'development',
+	plugins: [
+		new webpack.DefinePlugin({
+			'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV)
+		})
+
+	],
 	module: {
 		rules: [
 			{
-				test: /\.css$/,
-				loaders: ['style-loader', 'css-loader'],
+				test: /\.(js|jsx)$/,
+				use: 'babel-loader',
 			},
-			{
-				test: /\.js(x)$/,
-				exclude: /node_modules/,
-				loader: 'babel-loader',
-			},
-			{
-				test: /\.(png|jpe?g|gif)$/,
-				exclude: /node_modules/,
-				loader: 'url-loader',
-				options: {
-					limit: 20000,
-					name: '[name].[ext]',
-				},
-			},
-		],
+		]
+	},
+	resolve: {
+		extensions: ['.js', '.jsx'],
 	},
 };
-
