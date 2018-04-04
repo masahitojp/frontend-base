@@ -5,16 +5,16 @@ require('./app.css');
 
 
 class App extends React.Component {
-	  render() {
-		      return (
-			            <div className="container">
-			              <h1>Hello React!</h1>
-			            </div>
-			          );
-		    }
+	render() {
+		return (
+			<div className="container">
+				<h1>Hello React!</h1>
+			</div>
+		);
+	}
 }
 
 ReactDOM.render(
-	  <App />,
-	  document.getElementById('root'),
+	<App />,
+	document.getElementById('root'),
 );
