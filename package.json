@@ -8,7 +8,9 @@
     "lint:js": "eslint --print-config .eslintrc.js | eslint-config-prettier-check",
     "lint:types": "flow focus-check .",
     "postinstall": "flow-typed install",
-    "test": "npm run lint:types && npm run lint:js"
+    "test": "npm run lint:types && npm run lint:js",
+    "storybook": "start-storybook -p 6006 -s public",
+    "build-storybook": "build-storybook -s public"
   },
   "dependencies": {
     "react": "^16.3.1",
@@ -16,6 +18,9 @@
     "styled-components": "^3.2.5"
   },
   "devDependencies": {
+    "@storybook/react": "^3.4.0",
+    "@storybook/addon-actions": "^3.4.0",
+    "@storybook/addon-links": "^3.4.0",
     "babel-cli": "^6.26.0",
     "babel-eslint": "^8.2.2",
     "babel-loader": "^7.1.4",
