@@ -1,7 +1,9 @@
 [ignore]
 <PROJECT_ROOT>/node_modules/styled-components/*
 <PROJECT_ROOT>/node_modules/editions/es2015/index.js
-
+<PROJECT_ROOT>/node_modules/immutable/dist/immutable.js
+<PROJECT_ROOT>/node_modules/radium/src/enhancer.js
+<PROJECT_ROOT>/node_modules/radium/src/components/style-root.js
 [include]
 
 [libs]

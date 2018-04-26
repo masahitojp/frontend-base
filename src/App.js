@@ -1,9 +1,16 @@
-import React from 'react';
-import { Button } from './components';
+import React from 'react'
+import { render } from 'react-dom'
+import { Provider } from 'react-redux'
+import { Counter } from './containers'
+import createStore from './store/createStore'
 
+const App = () => {
+  const store = createStore()
+  return (
+    <Provider store={store}>
+      <Counter />
+    </Provider>
+  )
+}
 
-const App = () => (
-  <Button> test </Button>
-);
-
-export default App;
+export default App
