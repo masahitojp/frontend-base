@@ -10,7 +10,8 @@
     "postinstall": "flow-typed install",
     "test": "npm run lint:types && npm run lint:js",
     "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "jest": "jest"
   },
   "dependencies": {
     "react": "^16.3.1",
@@ -25,6 +26,7 @@
     "@storybook/react": "^3.4.0",
     "babel-cli": "^6.26.0",
     "babel-eslint": "^8.2.2",
+    "babel-jest": "^22.4.3",
     "babel-loader": "^7.1.4",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.6.1",
@@ -43,6 +45,7 @@
     "file-loader": "^1.1.11",
     "flow-bin": "^0.69.0",
     "flow-typed": "^2.4.0",
+    "jest": "^22.4.3",
     "prettier": "^1.11.1",
     "style-loader": "^0.20.3",
     "url-loader": "^1.0.1",
