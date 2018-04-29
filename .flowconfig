@@ -4,6 +4,8 @@
 <PROJECT_ROOT>/node_modules/immutable/dist/immutable.js
 <PROJECT_ROOT>/node_modules/radium/src/enhancer.js
 <PROJECT_ROOT>/node_modules/radium/src/components/style-root.js
+<PROJECT_ROOT>/node_modules/eslint-plugin-jsx-a11y/__mocks__/genInteractives.js
+
 [include]
 
 [libs]
