@@ -1,7 +1,11 @@
+/* @flow */
+
 import React from 'react'
 import { storiesOf } from '@storybook/react'
+import { text } from '@storybook/addon-knobs/react'
+
 import Button from '.'
 
-storiesOf('Button', module).add('with text', () => (
-  <Button>Hello Button</Button>
+storiesOf('1: Atoms/Button', module).add('with text', () => (
+  <Button>{text('children', 'Button')}</Button>
 ))

@@ -1,4 +1,5 @@
-import styled from 'styled-components';
+/* @flow */
+import styled from 'styled-components'
 
 const Button = styled.button`
   border-radius: 3px;
@@ -7,6 +8,6 @@ const Button = styled.button`
   background: transparent;
   color: palevioletred;
   border: 2px solid palevioletred;
-`;
+`
 
-export default Button;
+export default Button
