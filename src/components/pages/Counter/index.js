@@ -1,6 +1,9 @@
 // @flow
 
-import React from 'react'
+import React, { Fragment } from 'react'
+import Button from '../../atoms/Button'
+import Navbar from '../../molecules/NavBar'
+
 import CounterActions from '../../../enhancers/counterEnhancer'
 
 type Props = {
@@ -9,11 +12,12 @@ type Props = {
 }
 
 const Counter = ({ value, actions }: Props) => (
-  <div>
+  <Fragment>
+    <Navbar />
     <h1>Counter</h1>
     <h1>{value.toString()} </h1>
-    <button onClick={() => actions.increment()}>+</button>
-  </div>
+    <Button onClick={() => actions.increment()}>+</Button>
+  </Fragment>
 )
 
 export default Counter

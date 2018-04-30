@@ -1,15 +1,17 @@
 import React from 'react'
-import { render } from 'react-dom'
 import { Provider } from 'react-redux'
-import { Counter } from './containers'
+import { BrowserRouter } from 'react-router-dom'
+import Routes from './Routes'
 import createStore from './store/createStore'
 
 const App = () => {
   const store = createStore()
   return (
-    <Provider store={store}>
-      <Counter />
-    </Provider>
+    <BrowserRouter>
+      <Provider store={store}>
+        <Routes />
+      </Provider>
+    </BrowserRouter>
   )
 }
 
