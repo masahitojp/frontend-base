@@ -5,5 +5,5 @@ jobs:
    steps:
      - checkout
      - run: |
-         docker build -t "masahitojp/frontend-base:$CIRCLE_BRANCH" .
-         docker run "masahitojp/frontend-base:$CIRCLE_BRANCH"
+         docker build -t "$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME/$CIRCLE_BRANCH" .
+         docker run "$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME/$CIRCLE_BRANCH"
