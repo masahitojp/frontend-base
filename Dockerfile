@@ -1,4 +1,4 @@
-FROM node:latest@sha256:2b90984bee6ff28f1f36daee3aae945d1c029d7c684dd223f9c3d22a52e5c01c
+FROM node:latest@sha256:8dca6d096b7200feb7d07552a16cea1b1ff1d292848e4f670f03a9b9a2d95c63
 
 ENV CI true
 
