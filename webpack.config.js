@@ -9,11 +9,6 @@ module.exports = {
     path: path.resolve(__dirname, './dist'),
     filename: 'bundle.js',
   },
-  serve: {
-    content: path.resolve(__dirname, './dist'),
-    port: 3000,
-    dev: { publicPath: '/' },
-  },
   devtool: 'eval-source-map', // デプロイするときには削除
   mode: 'development',
   plugins: [
