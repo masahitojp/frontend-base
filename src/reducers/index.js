@@ -1,3 +1,4 @@
+// @flow
 import { combineReducers } from 'redux'
 import counter, { type Action as CounterAction } from './counter'
 
