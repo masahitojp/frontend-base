@@ -9421,9 +9421,9 @@ webpack-log@^1.1.1:
     loglevelnext "^1.0.1"
     uuid "^3.1.0"
 
-webpack-serve@1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/webpack-serve/-/webpack-serve-1.0.2.tgz#cd7f040cac63300e8fff79f1d45aa2f3e5825492"
+webpack-serve@1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/webpack-serve/-/webpack-serve-1.0.4.tgz#d1c83955926969ba195e5032f978da92ef07829c"
   dependencies:
     "@shellscape/koa-static" "^4.0.4"
     "@webpack-contrib/config-loader" "^1.1.1"
