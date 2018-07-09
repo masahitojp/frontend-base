@@ -39,7 +39,7 @@
     "eslint-config-airbnb": "17.0.0",
     "eslint-config-prettier": "2.9.0",
     "eslint-config-react-tools": "1.2.5",
-    "eslint-plugin-flowtype": "2.49.3",
+    "eslint-plugin-flowtype": "2.50.0",
     "eslint-plugin-import": "2.13.0",
     "eslint-plugin-jest": "21.17.0",
     "eslint-plugin-jsx-a11y": "6.0.3",
