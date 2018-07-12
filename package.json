@@ -47,7 +47,7 @@
     "eslint-plugin-react": "7.10.0",
     "file-loader": "1.1.11",
     "flow-bin": "0.76.0",
-    "flow-typed": "2.4.0",
+    "flow-typed": "2.5.1",
     "jest": "23.3.0",
     "prettier": "1.13.7",
     "style-loader": "0.21.0",
