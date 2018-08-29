@@ -6,6 +6,7 @@
 <PROJECT_ROOT>/node_modules/radium/src/components/style-root.js
 <PROJECT_ROOT>/node_modules/eslint-plugin-jsx-a11y/__mocks__/genInteractives.js
 <PROJECT_ROOT>/node_modules/@webassemblyjs/ieee754/src/index.js
+<PROJECT_ROOT>/node_modules/eslint-config-react-tools/node_modules/eslint-plugin-jsx-a11y/__mocks__/genInteractives.js
 
 [include]
 
