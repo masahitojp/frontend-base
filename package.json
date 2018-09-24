@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "webpack-serve --open  --config serve.config.js",
+    "start": "webpack-dev-server --open",
     "build": "webpack -d",
     "lint:js": "eslint --print-config .eslintrc.js | eslint-config-prettier-check",
     "lint:types": "flow focus-check .",
@@ -58,6 +58,6 @@
     "url-loader": "1.1.0",
     "webpack": "4.19.1",
     "webpack-cli": "3.1.1",
-    "webpack-serve": "2.0.2"
+    "webpack-dev-server": "3.1.8"
   }
 }
