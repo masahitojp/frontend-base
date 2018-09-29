@@ -1,0 +1,10 @@
+{
+  "Hello": {
+    "origin": [
+      [
+        "src/components/pages/Home/index.js",
+        10
+      ]
+    ]
+  }
+}
