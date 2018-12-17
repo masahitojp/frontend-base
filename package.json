@@ -52,7 +52,7 @@
     "flow-bin": "0.83.0",
     "flow-typed": "2.5.1",
     "jest": "23.6.0",
-    "moment": "2.22.2",
+    "moment": "2.23.0",
     "prettier": "1.15.3",
     "style-loader": "0.23.1",
     "url-loader": "1.1.2",
