@@ -1,6 +1,5 @@
 [ignore]
 <PROJECT_ROOT>/node_modules/styled-components/*
-<PROJECT_ROOT>/node_modules/@emotion/.*
 <PROJECT_ROOT>/node_modules/editions/es2015/index.js
 <PROJECT_ROOT>/node_modules/immutable/dist/immutable.js
 <PROJECT_ROOT>/node_modules/radium/src/enhancer.js
@@ -10,7 +9,16 @@
 <PROJECT_ROOT>/node_modules/@webassemblyjs/ieee754/src/index.js
 <PROJECT_ROOT>/node_modules/.*/@webassemblyjs/ieee754/src/index.js
 <PROJECT_ROOT>/node_modules/babel-plugin-react-docgen/test/fixtures/flowTypeNotWorking/actual.js
-
+<PROJECT_ROOT>/node_modules/react-popper/.*
+<PROJECT_ROOT>/node_modules/react-hotkeys/.*
+<PROJECT_ROOT>/node_modules/react-draggable/.*
+<PROJECT_ROOT>/node_modules/react-select/.*
+<PROJECT_ROOT>/node_modules/emotion/.*
+<PROJECT_ROOT>/node_modules/@emotion/.*
+<PROJECT_ROOT>/node_modules/emotion-theming/.*
+<PROJECT_ROOT>/node_modules/create-emotion/.*
+<PROJECT_ROOT>/node_modules/babel-plugin-emotion/.*
+<PROJECT_ROOT>/node_modules/polished/.*
 
 [include]
 
