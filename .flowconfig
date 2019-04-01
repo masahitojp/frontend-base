@@ -19,6 +19,8 @@
 <PROJECT_ROOT>/node_modules/create-emotion/.*
 <PROJECT_ROOT>/node_modules/babel-plugin-emotion/.*
 <PROJECT_ROOT>/node_modules/polished/.*
+<PROJECT_ROOT>/node_modules/@storybook/ui/node_modules/react-hotkeys/es/vendor/react-dom/getEventKey.js
+<PROJECT_ROOT>/node_modules/@storybook/.*/react-popper/lib/cjs/__typings__/main-test.js.flow
 
 [include]
 

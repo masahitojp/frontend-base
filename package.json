@@ -19,7 +19,7 @@
     "react-redux": "6.0.1",
     "react-router-dom": "5.0.0",
     "recompose": "0.30.0",
-    "redux": "4.0.1",
+    "redux": "3.7.2",
     "styled-components": "4.2.0"
   },
   "devDependencies": {
@@ -32,7 +32,10 @@
     "@storybook/addon-actions": "5.0.6",
     "@storybook/addon-knobs": "5.0.6",
     "@storybook/addon-links": "5.0.6",
+    "@storybook/addons": "5.0.6",
+    "@storybook/core": "5.0.6",
     "@storybook/react": "5.0.6",
+    "@storybook/theming": "5.0.6",
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "10.0.1",
     "babel-jest": "24.5.0",
