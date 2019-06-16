@@ -22,13 +22,14 @@
 <PROJECT_ROOT>/node_modules/@storybook/ui/node_modules/react-hotkeys/es/vendor/react-dom/getEventKey.js
 <PROJECT_ROOT>/node_modules/@storybook/.*/react-popper/lib/cjs/__typings__/main-test.js.flow
 <PROJECT_ROOT>/node_modules/raf-schd/.*
+<PROJECT_ROOT>/node_modules/fbjs/lib/emptyFunction.js.flow
 
 [include]
 
 [libs]
 
 [lints]
-
+deprecated-utility=off
 [options]
 module.ignore_non_literal_requires=true
 
