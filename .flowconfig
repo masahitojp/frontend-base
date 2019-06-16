@@ -21,6 +21,7 @@
 <PROJECT_ROOT>/node_modules/polished/.*
 <PROJECT_ROOT>/node_modules/@storybook/ui/node_modules/react-hotkeys/es/vendor/react-dom/getEventKey.js
 <PROJECT_ROOT>/node_modules/@storybook/.*/react-popper/lib/cjs/__typings__/main-test.js.flow
+<PROJECT_ROOT>/node_modules/raf-schd/.*
 
 [include]
 
