@@ -8,4 +8,4 @@ export type State = {
   counter: $Call<typeof counter, void, any>,
 }
 
-export default combineReducers({ counter })
+export default combineReducers<*, *>({ counter })

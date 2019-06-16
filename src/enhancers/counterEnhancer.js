@@ -15,7 +15,10 @@ type Props = {
 const connector = connect(
   (state: RootState, _props) => state.counter,
   (dispatch: Dispatch<any>) => ({
-    actions: bindActionCreators({ ...CounterActions }, dispatch),
+    actions: bindActionCreators(
+      { increment: CounterActions.increment },
+      dispatch,
+    ),
   }),
 )
 

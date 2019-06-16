@@ -4,9 +4,9 @@
 export const INCREMENT = 'counter/increment'
 
 // Action Creators
-export function increment() {
+export function increment(): Action {
   return {
-    type: INCREMENT
+    type: INCREMENT,
   }
 }
 
@@ -14,11 +14,11 @@ export function increment() {
 export type Action = $Call<typeof increment>
 
 export type State = {
-  value: number
+  value: number,
 }
 
 const initialState: State = {
-  value: 0
+  value: 0,
 }
 
 // Reducer
