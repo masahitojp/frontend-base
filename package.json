@@ -53,7 +53,7 @@
     "eslint-plugin-prettier": "3.1.0",
     "eslint-plugin-react": "7.14.2",
     "file-loader": "4.0.0",
-    "flow-bin": "0.98.0",
+    "flow-bin": "0.250.0",
     "flow-typed": "2.5.2",
     "jest": "24.8.0",
     "moment": "2.24.0",
